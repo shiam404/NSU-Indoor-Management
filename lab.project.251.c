@@ -1,3 +1,7 @@
+//Project name: NSU Indoor Management System
+//Created by: Naimuzzaman Shiam
+//Date created: 21.04.2025
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -43,7 +47,7 @@ void bookSlot() {
         return;
     }
 
-    printf("Enter time slot to book (10 to 16): ");
+    printf("Enter time slot to book (10 to 16; eg. for 13:00-14:00 write 13): ");
     scanf("%d", &booking.slotHour);
    
     if (booking.slotHour < 10 || booking.slotHour > 16) {
